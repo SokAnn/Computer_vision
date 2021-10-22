@@ -1,9 +1,9 @@
-'''
+"""
 IMAGE MATCHING USING THE FOURIER-MELLIN ALGORITHM
 The goal is to compute the correlation coefficient of the test image with each of the reference. To evaluate how the
 correlation coefficient changes with the mutual scaling of the compared images, with mutual overlap and if the reference
 image corresponds to the studied sample or does not correspond to it.
-'''
+"""
 
 import cv2
 import numpy as np

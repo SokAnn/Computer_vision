@@ -1,8 +1,8 @@
-'''
+"""
 OBJECT DETECTION AND MEASURING ITS CARTESIAN COORDINATES IN IMAGE BY ANALYSIS OF CROSS-CORRELATION FUNCTION
 Recognition of an object and determination of its Cartesian coordinates in the image by calculating the
 cross-correlation function in the space-time domain.
-'''
+"""
 
 import cv2
 import os

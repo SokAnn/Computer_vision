@@ -1,7 +1,7 @@
-'''
+"""
 AUTOMATIC MEASUREMENT OF IMAGE AFFINE TRANSFORMATION PARAMETERS
 The purpose of the work is to measure the parameters of the affine transformation of images and normalize them.
-'''
+"""
 
 import cv2
 import numpy as np

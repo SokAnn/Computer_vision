@@ -1,7 +1,7 @@
-'''
+"""
 IMAGE SEGMENTATION BY THE OTSU THRESHOLDING METHOD
 Segmentation images by the Otsu thresholding method.
-'''
+"""
 
 import os
 import cv2

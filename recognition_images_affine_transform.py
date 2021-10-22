@@ -1,6 +1,6 @@
-'''
+"""
 RECOGNITION OF IMAGES SUBJECTED TO AFFINE TRANSFORMS
-'''
+"""
 
 import cv2
 import numpy as np
