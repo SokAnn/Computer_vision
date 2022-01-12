@@ -13,13 +13,13 @@ if __name__ == "__main__":
     print("part 1")
     for k in range(0, 4):
         print(k + 1, ' image processing...')
-        if (k == 0):
+        if k == 0:
             img1 = Image.open("C:/Users/any12/PycharmProjects/Computer_vision/recognition_images_affine_transforms/image_1_7.jpg")
-        if (k == 1):
+        if k == 1:
             img1 = Image.open("C:/Users/any12/PycharmProjects/Computer_vision/recognition_images_affine_transforms/image_2_7.jpg")
-        if (k == 2):
+        if k == 2:
             img1 = Image.open("C:/Users/any12/PycharmProjects/Computer_vision/recognition_images_affine_transforms/image_3_7.jpg")
-        if (k == 3):
+        if k == 3:
             img1 = Image.open("C:/Users/any12/PycharmProjects/Computer_vision/recognition_images_affine_transforms/image_4_7.jpg")
 
         imgf = img1.convert('L')
